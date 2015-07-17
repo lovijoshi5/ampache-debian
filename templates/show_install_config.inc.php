@@ -127,6 +127,7 @@ require $prefix . '/templates/install_header.inc.php';
     <br />
     <?php echo T_('This section apply default transcoding configuration according to the application you want to use. You may need to customize settings once this setup ended'); ?>. <a href="https://github.com/ampache/ampache/wiki/Transcoding" target="_blank"><?php echo T_('See wiki page'); ?>.</a>
 </div>
+
 <br />
 <div class="form-group">
     <label for="transcode_template" class="col-sm-4 control-label"><?php echo T_('Template Configuration'); ?></label>
